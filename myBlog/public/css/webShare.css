@@ -1,0 +1,166 @@
+.content{
+    margin: 0 450px;
+    width:100%;
+    height: auto;
+    margin-top:100px;
+    z-index: 998;
+}
+.content #webShareBox{
+    width:650px;
+    height: auto;
+    margin-top: 50px;
+    float: left;
+}
+.content #webShareBox li{
+    height: 200px;
+    border-bottom: 1px solid lightgray;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: left;
+    margin-bottom: 20px;
+    overflow: hidden;
+    padding-right: 5px;
+}
+
+.content #webShareBox li:hover{
+    box-shadow: 5px 5px 5px lightgray;
+    border-bottom: 2px solid palevioletred;
+}
+
+.content #webShareBox li>p>span{
+    display: inline-block;
+    height: 20px;
+    width: 5px;
+    background-color:palevioletred;
+    margin-right: 20px;
+}
+.content #webShareBox li a{
+    font-size:22px;
+    font-weight: bold;
+}
+.content #webShareBox li:hover a{
+    color: rgb(246,90,138);
+}
+.content #webShareBox li img{
+    float: left;
+    display: inline-block;
+    width: 200px;
+    height: 150px;
+    margin-right: 20px;
+    transition: all linear 1s;
+}
+.content #webShareBox li img:hover{
+    transform: scale(1.1);
+}
+
+#webShareBox .readBtn{
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    background-color:rgba(219,112,147,0.9);
+    color: white;
+    font-size: 16px;
+    border-radius: 10px;
+    float:right;
+}
+#webShareBox .readBtn:hover{
+    background-color:palevioletred;
+}
+
+/*侧栏样式*/
+.content .sideBox{
+    width: 320px;
+    margin-left: 50px;
+    height: 500px;
+    float: left;
+    margin-top: 50px;
+}
+.content .sideBox input{
+    width: 250px;
+    border:1px palevioletred solid;
+    height: 30px;
+    line-height: 30px;
+    text-align: left;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.content .sideBox #searchBtn{
+    width: 50px;
+    height: 31px;
+    background-color:palevioletred;
+    color: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.content .sideBox #hotArticle{
+    height: auto;
+    margin-top: 20px;
+}
+.content .sideBox #hotArticle p span{
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    background-color:palevioletred;
+    color: white;
+    text-align: center;
+}
+.content .sideBox #hotArticle .hotArticleList{
+    border-top: 2px solid palevioletred;
+}
+.content .sideBox #hotArticle .hotArticleList li{
+    border-bottom: 1px dashed palevioletred;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 10px;
+    text-indent: 20px;
+}
+
+.content .sideBox #hotArticle .hotArticleList li p, .content .sideBox #hotArticle .lastestArticleList li p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.content .sideBox #lastestArticle{
+    height: auto;
+    margin-top: 50px;
+}
+.content .sideBox #lastestArticle p span{
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    background-color:palevioletred;
+    color: white;
+    text-align: center;
+}
+.content .sideBox #lastestArticle .lastestArticleList{
+    border-top: 2px solid palevioletred;
+}
+.content .sideBox #lastestArticle .lastestArticleList li{
+    border-bottom: 1px dashed palevioletred;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 10px;
+    text-indent: 20px;
+}
+.content .sideBox #lastestArticle{
+    height:auto;
+}
+.content .sideBox #hotTitle{
+    height: auto;
+    margin-top: 50px;
+}
+.content .sideBox #hotTitle p span{
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    background-color:palevioletred;
+    color: white;
+    text-align: center;
+}
+.hotArticleList li:hover,.lastestArticleList li:hover{
+    color:palevioletred ;
+}

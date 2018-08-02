@@ -1,0 +1,136 @@
+.content {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.titleBox1,.titleBox2,.titleBox4{
+    margin: 20px 850px auto 850px;
+}
+.content #title1,#title4{
+    height: 25px;
+    line-height: 25px;
+    font-size: 24px;
+    color: #666;
+}
+.content h2{
+    height: 30px;
+    line-height: 30px;
+    font-size: 24px;
+    color: #333;
+    font-family: 华文楷体;
+    border-bottom: solid 1px #cfcfcf;
+}
+
+ul.bztj,ul.JourneyRecord,ul#webShareBox,ul#reviewMsgBox{
+    margin:  0 450px;
+    position: relative;
+    margin-top: 30px;
+}
+ul.bztj li{
+    width:450px;
+    height: 120px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    background-color:rgba(219,112,147,0.1);
+    padding: 8px 0;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    position: relative;
+    float: left;
+    margin-left: 33.33333333px;
+}
+
+ul.bztj li:hover{
+    background-color: rgba(219,112,147,0.5);
+    color: white;
+    box-shadow: 5px 5px 5px lightgray;
+}
+
+ul.JourneyRecord li{
+    height: 200px;
+    width: 300px;
+    float: left;
+    margin-left: 33.3333333px;
+}
+ul.JourneyRecord img{
+    width: 300px;
+    height: 200px;
+    -webkit-transition: all ease-in 0.5s;
+    border-radius: 50%;
+}
+
+ul.JourneyRecord img:hover{
+    -webkit-transform:scale(1.1);
+}
+.titleBox2{
+    clear:both;
+    margin-top: 50px;
+}
+.titleBox2 #title2{
+    width: 300px;
+    height: 25px;
+    line-height: 25px;
+    margin-top: 5px;
+    font-size: 20px;
+    color: #666;
+}
+.titleBox2 #title2 button{
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 18px;
+    margin-right: 10px;
+    float: left;
+    background-color:white;
+    border-radius: 10px;
+}
+#webShareBox li,ul#reviewMsgBox li{
+    height: 160px;
+    border-bottom: 1px solid lightgray;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: left;
+    margin-bottom: 20px;
+    overflow: hidden;
+    padding: 5px;
+}
+#webShareBox li:hover,#reviewMsgBox li:hover{
+    box-shadow: 5px 5px 5px lightgray;
+    border-bottom: 2px solid palevioletred;
+}
+#webShareBox li a,#reviewMsgBox li a{
+    font-size: 22px;
+    font-weight: bold;
+}
+#webShareBox li:hover a,#reviewMsgBox li:hover a{
+    color:palevioletred;
+}
+#webShareBox li img,#reviewMsgBox li img{
+    float: left;
+    display: inline-block;
+    width: 250px;
+    height: 150px;
+    margin-right: 20px;
+    transition: all linear 1s;
+}
+#webShareBox li img:hover,#reviewMsgBox li img:hover{
+    transform: scale(1.1);
+}
+
+#webShareBox .readBtn,#reviewMsgBox .readBtn{
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    background-color:rgba(219,112,147,0.9);
+    color: white;
+    font-size: 16px;
+    border-radius: 10px;
+    float: right;
+}
+#webShareBox  .readBtn:hover,#reviewMsgBox .readBtn:hover{
+    background-color:palevioletred;
+}
+
+

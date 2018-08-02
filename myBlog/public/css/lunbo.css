@@ -1,0 +1,45 @@
+#lunBo {
+    width:1000px;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+    margin: 71px 450px 0 450px;
+}
+
+.lunBopic {
+    width: 1000px;
+    height: 600px;
+}
+#imgLists{
+    position: absolute;
+}
+#imgLists li {
+    float: left;
+    margin-right: 10px;
+    list-style: none;
+}
+#navLists {
+    position: absolute;
+    bottom: 10px;
+}
+
+#navLists .item {
+    display: block;
+    width: 20px;
+    height: 5px;
+    background-color: red;
+    float: left;
+    margin: 0 5px;
+    /*设置背景透明度*/
+    opacity: 0.3;
+    /*兼容IE8,设置透明度*/
+    /*filter: alpha(opacity=50);*/
+}
+
+#navLists.item:hover {
+    background-color: black;
+}
+
+
+
+

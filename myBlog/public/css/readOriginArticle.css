@@ -1,0 +1,9 @@
+.content{
+    width: 1000px;
+    margin: 120px 450px auto 450px;
+
+}
+.content p{
+    font-size: 30px;
+    color: red;
+}
